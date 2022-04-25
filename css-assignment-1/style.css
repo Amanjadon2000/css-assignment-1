@@ -1,0 +1,172 @@
+body{
+    background-color: skyblue;
+  margin: 0px;
+  
+}
+
+
+#header{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    top: 0px; 
+   position: fixed;
+   z-index: 1;
+}
+#heading{
+    /* position: relative; */
+    top: 100px;
+    text-align: center;
+}
+.input-class{
+    position: relative;
+    margin-bottom: 20px;
+    left: 60px;
+}
+input{
+    padding: 5px;
+    
+}
+#sub{
+    display: flex;
+    
+    margin-top: 200px;
+    bottom: 0;
+}
+#reset{
+    width: 60px;
+    position: relative;
+    left: 80px;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    position: relative;
+    top:200px;    
+}
+#heading-div{
+    position: relative;
+    top: 100px;
+    border: 4px double black ;
+    width: 90%;
+    left: 60px;
+}
+#form-div{
+    position: relative;
+    /* top: 140px; */
+    
+}
+
+#form input{
+    display: inline;
+}
+.input-class label {
+    display: inline;
+}
+#name{
+    position: relative;
+    left: 100px;
+
+}
+#Fathers-name{
+    position: relative;
+    left: 47px;
+}
+#Mothers-name{
+    position: relative;
+    left: 41px;
+    
+}
+#pno{
+    position: relative;
+    left: 42px;
+    
+}
+#email{
+    position: relative;
+    left: 100px;
+    
+}
+.gender-div{
+    display: inline;
+    position: relative;
+    left: 103px;
+}
+#gender-text{
+    display: inline;
+    
+}
+#date{
+    position: relative;
+    width: 20px;
+    left: 59px;
+}
+span{
+    position: relative;
+    left: 60px;
+}
+#month{
+    position: relative;
+    left: 60px;
+    width: 20px;
+}
+#year{
+    position: relative;
+    left: 62px;
+    width: 40px;
+    
+}
+#ddmmyy{
+     position: relative;
+     display: inline;
+     left: 67px;
+}
+#gender{
+    margin-bottom: 20px;
+}
+#address{
+    position: relative;
+    left: 94px;
+    margin-bottom: 20px;
+}
+
+div select option{
+    position: relative;
+    left: 120px;
+}
+#select{
+    position: relative;
+    left: 122px;
+}
+.department-div{
+    display: inline;
+    position: relative;
+    left: 63px;
+}
+#department-text,#photo-div,#file{
+    display: inline;   
+}
+#photo-div{
+    position: relative;
+    left: 60px;
+}
+.language-div{
+    display: inline;
+    position: relative;
+    left: 93px;
+}
+#language-text{
+    display: inline;
+}
+ #file{
+     position: relative;
+     left: 94px;
+ }
+ #submit{
+     position: relative;
+     left: 61px;
+ }
